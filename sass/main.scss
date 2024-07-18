@@ -1,0 +1,16 @@
+/*base*/
+@import './base/resets';
+
+
+/*abstract*/
+@import './abstract/variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*layout*/
+@import './layout/header';
+@import './layout/footer';
+
+/*component*/
+@import './component/services';
+@import './component/porfolio';
+

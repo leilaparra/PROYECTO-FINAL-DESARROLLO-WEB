@@ -1,0 +1,130 @@
+header{
+    background-image: url(/img/hero.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+.menu .logo {
+font-weight: 700;
+font-size: 25px;
+color: #fd5D47;
+}
+
+.menu .navbar ul {
+    list-style: none;
+
+}
+
+.menu .navbar ul li {
+position: relative;
+float: left;
+}
+
+.menu .navbar ul li a {
+   font-size: 18px;
+   padding: 20px;
+   color: #ffffff;
+   display: block;
+    }
+
+.menu .navbar ul li a:hover {
+        color: #fd5D47;     }  
+         
+
+#menu { 
+display: none; }  
+
+.menu-icono {
+    width: 25px;
+}  
+
+.menu label {
+cursor: pointer;
+display: none;
+}  
+
+.header-text {
+    text-align: center;
+}  
+
+.header-text h1 {
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+}  
+
+.header-text p {
+    margin-bottom: 10px;
+    color: #787d8a;
+    text-transform: uppercase;
+    font-size: 35px;
+}  
+
+.btn-1 {
+    display: inline-block;
+    background-color: #fd5D47;
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #ffffff;
+}  
+
+.btn-1:hover {
+ background-color: #bd4634;
+}  
+
+@media (max-width: 991px){
+    .menu {
+    padding: 20px;
+    }
+
+    .menu label {
+    display: initial;
+    }
+    
+    .menu .navbar {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0;
+    background-color: #2d2f3a;
+    display: none;
+    }
+
+    .menu .navbar ul li {
+    width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;}
+
+    .header{
+        height: 60vh;
+     }
+
+     .header-text{
+        margin-top: 50px;
+        padding: 0px 25px;
+     }    }

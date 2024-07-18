@@ -1,0 +1,47 @@
+.porfolio {
+    background-color: #eff1f5;
+    padding: 100px 0px;
+    color: #2d2f3a;
+    font-size: 18px;
+     }  
+     
+     .g-porfolio  {
+      display: flex;
+     }  
+     
+     .g-porfolio-txt-1 h2  {
+        font-size: 55px;
+        margin-bottom: 35px;
+       }
+       
+    .g-porfolio-txt-2  {
+    text-align: right;
+       }  
+    
+     .images img {
+     width: 300px;
+     margin: 0px 20px 70px 20px;
+     border-radius: 15px;
+       }  
+
+   
+       @media (max-width: 991px){
+    
+
+         .porfolio{
+            padding: 30px;
+         }
+      
+         .g-porfolio{
+           flex-direction: column;
+           text-align: center;
+           padding-bottom: 30px;
+         }
+      
+         .porfolio-txt-2{
+           text-align: center;
+         }
+         
+         .images img{
+           display: none;
+         } }
